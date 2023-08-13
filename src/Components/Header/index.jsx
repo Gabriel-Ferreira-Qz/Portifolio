@@ -14,7 +14,7 @@ export default function Header() {
     const showSideBar = () => setSideBar(!sideBar)
 
     
-    const [isScrolled, setIsScrolled] = useState('false');
+    const [isScrolled, setIsScrolled] = useState(false)
 
     const handleScroll = () => {
         window.scrollY > 0 ? setIsScrolled(true) : setIsScrolled(false)

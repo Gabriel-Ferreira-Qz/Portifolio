@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
     padding: 1.85rem 0 5rem;
     width: 90%;
     margin: 0 auto;
@@ -28,6 +28,14 @@ export const Container = styled.div`
             }
         }
     }
+
+    @media screen and (min-width: 768px){
+        width: 80%;
+
+        h2 {
+            font-size: 2.25rem;
+        }
+    }
 `
 
 export const CircluloRoxo = styled.div`
@@ -39,7 +47,14 @@ export const CircluloRoxo = styled.div`
     position: absolute;
     top: 260%;
     z-index: -1;
-    right: 50%;
+    left: -66%;
+
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 317%;
+        left: -41%;
+    }
+}
 `
 
 export const CircluloAzul = styled.div`
@@ -52,6 +67,12 @@ export const CircluloAzul = styled.div`
     top: 224%;
     z-index: -1;
     right: 0;
+
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 260%;
+    }
+
 `
 
 export const CircluloAzulSecundario = styled.div` 
@@ -64,4 +85,11 @@ export const CircluloAzulSecundario = styled.div`
     top: 359%;
     z-index: -1;
     right: 0;
+
+    @media screen and (min-width: 768px) {
+        width: 330px;
+        height: 346px;
+        top: 415%;
+    }
+}
 `

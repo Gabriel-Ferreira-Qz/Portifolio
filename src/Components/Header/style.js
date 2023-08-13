@@ -21,4 +21,16 @@ export const Cabecalho = styled.header`
         z-index: 10;
         margin-right: 1.875rem;
     }
+
+    @media screen and (min-width: 768px) {
+        padding: 2rem 0;
+
+        img {
+            margin-left: 3.125rem;
+        }
+    
+        svg {
+            margin-right: 3.125rem;
+        }
+    }
 `

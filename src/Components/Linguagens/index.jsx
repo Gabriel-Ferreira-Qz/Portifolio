@@ -1,13 +1,14 @@
-import HTML from "../../Assets/html.svg"
-import CSS from "../../Assets/css.svg"
-import JavaScript from "../../Assets/javascript.svg"
-import React from "../../Assets/react.svg"
-import Tailwindcss from "../../Assets/tailwindcss.svg"
-import SASS from "../../Assets/sass.svg"
-import StyledComponents from "../../Assets/styled-components.svg"
-import Bootstrap from "../../Assets/bootstrap.svg"
-
 import { Container } from "./style"
+
+import HTML from "../../Assets/img-linguagens/html.svg"
+import CSS from "../../Assets/img-linguagens/css.svg"
+import JavaScript from "../../Assets/img-linguagens/javascript.svg"
+import React from "../../Assets/img-linguagens/react.svg"
+import Tailwindcss from "../../Assets/img-linguagens/tailwindcss.svg"
+import SASS from "../../Assets/img-linguagens/sass.svg"
+import StyledComponents from "../../Assets/img-linguagens/styled-components.svg"
+import Bootstrap from "../../Assets/img-linguagens/bootstrap.svg"
+
 
 export default function Linguagens() {
 
@@ -58,13 +59,13 @@ export default function Linguagens() {
         <Container>
             <h2>Linguagens</h2>
 
-            <section>
+            <div>
                 {tecnologias.map((tecnologias, k) => (
                     <div key={k}>
                         <img src={tecnologias.img} alt={tecnologias.alt} />
                     </div>
                 ))}
-            </section>
+            </div>
 
         </Container>
     )

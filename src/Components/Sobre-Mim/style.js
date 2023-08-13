@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@ export const Container = styled.div`
     width: 80%;
     margin: 0 auto;
 
-    section{
+    section {
         display: flex; 
         flex-direction: column;
         gap: 10px;
@@ -18,10 +18,13 @@ export const Container = styled.div`
             color: #4A62DF;
         }
 
-        p{
-            font-size: .875rem;
-            font-weight: 500;
+        div{
+            p {
+                font-size: .875rem;
+                font-weight: 500;
+            }
         }
+
     }
 
     button {
@@ -46,6 +49,40 @@ export const Container = styled.div`
             height: 18px;
         }
     }
+
+    @media screen and (min-width: 768px) {
+        gap: 32px;
+        width: 65%;
+
+        section {
+            gap: 20px;
+
+            h2 {
+                font-size: 2.25rem
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            div {
+                p { 
+                    margin-bottom: 1.25rem;
+                }
+            }
+
+        }
+
+        button {
+            padding: 1rem;
+            font-size: 1rem;
+
+            svg { 
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
 `
 
 export const CircluloRoxo = styled.div`
@@ -57,7 +94,15 @@ export const CircluloRoxo = styled.div`
     position: absolute;
     top: 120%;
     z-index: -1;
-    right: 50%;
+    left: -45%;
+
+    @media screen and (min-width: 768px) {
+        filter: blur(200px);
+        position: absolute;
+        top: 142%;
+        z-index: -1;
+        left: -24%;
+    }
 `
 
 export const CircluloAzul = styled.div`

@@ -27,11 +27,32 @@ export const Container = styled.section`
     p {
         font-size: .875rem;
         font-weight: 600;
-        margin: 1rem auto ;
+        margin: 1rem auto;
         width: 90%;
 
         span {
             color:#4A62DF;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        h3 {
+            font-size: 1.125rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 1rem auto 1.5rem auto;
+            width: 65%;
+
         }
     }
 
@@ -60,9 +81,25 @@ export const Botoes = styled.ul`
             border-radius: 8px;
     
             svg {
-                width: 20px;
-                height: 20px;
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        li {
+            a{
+                font-size: 1rem;
+                width: 146px;
+                padding: 1rem 0;
+
+                svg {
+
+                }
             }
         }
     }
 `
+
+

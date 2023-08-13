@@ -31,24 +31,21 @@ export default function Projetos() {
     ]
 
     return (
-        <section>
-            <Container>
-                <h2>Meus principais <span>projetos</span></h2>
+        <Container>
+            <h2>Meus principais <span>projetos</span></h2>
 
-                <section>
-                    {imagensDosProjetos.map((projetos, k) => (
-                        <div key={k}>
-                            <img src={projetos.img} alt={projetos.alt} />
-                        </div>
-                    ))}
-                </section>
+            <section>
+                {imagensDosProjetos.map((projetos, k) => (
+                    <div key={k}>
+                        <img src={projetos.img} alt={projetos.alt} />
+                    </div>
+                ))}
+            </section>
 
-                <CircluloRoxo></CircluloRoxo>
-                <CircluloAzul></CircluloAzul>
-                <CircluloAzulSecundario></CircluloAzulSecundario>
-                
-            </Container>
+            <CircluloRoxo></CircluloRoxo>
+            <CircluloAzul></CircluloAzul>
+            <CircluloAzulSecundario></CircluloAzulSecundario>
 
-        </section>
+        </Container>
     )
 }

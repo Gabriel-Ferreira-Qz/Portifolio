@@ -13,7 +13,7 @@ export const Container = styled.section`
         font-weight: 700;
     }
 
-    section {
+    div {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -23,6 +23,18 @@ export const Container = styled.section`
             img {
                 width: 80px;
             }
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        div{
+            gap: 80px;
+            div {
+                img {
+                    width: auto;
+                }
+            }
+
         }
     }
 `
