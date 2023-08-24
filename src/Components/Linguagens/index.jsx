@@ -1,4 +1,4 @@
-import { Container } from "./style"
+import { Container, Tecnologias } from "./style"
 
 import HTML from "../../Assets/img-linguagens/html.svg"
 import CSS from "../../Assets/img-linguagens/css.svg"
@@ -55,18 +55,24 @@ export default function Linguagens() {
         }
     ]
 
-    return(
-        <Container>
-            <h2>Linguagens</h2>
+    return (
+        <section>
+            <Container name="linguagens">
+                <h2>Linguagens</h2>
 
-            <div>
-                {tecnologias.map((tecnologias, k) => (
-                    <div key={k}>
-                        <img src={tecnologias.img} alt={tecnologias.alt} />
-                    </div>
-                ))}
-            </div>
+                <Tecnologias>
+                    {tecnologias.map((tecnologias, k) => (
+                        <div key={k}>
+                            <img
+                                src={tecnologias.img}
+                                alt={tecnologias.alt}
+                            />
+                            <span>{tecnologias.nome}</span>
+                        </div>
+                    ))}
+                </Tecnologias>
 
-        </Container>
+            </Container>
+        </section>
     )
 }

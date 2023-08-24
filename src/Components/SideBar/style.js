@@ -7,7 +7,7 @@ const slideInAnimation = keyframes`
   to {
     transform: translateX(0);
   }
-`;
+`
 
 export const Container = styled.ul`
   position: fixed;
@@ -23,29 +23,37 @@ export const Container = styled.ul`
   li {
     list-style: none;
 
-      a {
-        font-size: 1.125rem;
-        text-decoration: none;
-        font-weight: 500;
-        display: block;
-        padding: .25rem .5rem;
-        color: #2F2E41;
-      }
+    a {
+      font-size: 1.125rem;
+      text-decoration: none;
+      font-weight: 500;
+      display: block;
+      padding: .25rem .5rem;
+      color: #2F2E41;
+      cursor: pointer;
     }
+  }
 
 `
 
-export const BtnContato = styled.div`
+export const BtnContato = styled.a`
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #FBFAFA;
+  font-family: 'Poppins', sans-serif;
+  background-color: #2F2E41;
+  border: none;
+  border-radius: 8px;
+  padding: .75rem 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
 
-  button {
-    font-size: 1.125rem;
-    font-weight: 500;
-    color: #FBFAFA;
-    font-family: 'Poppins', sans-serif;
-    background-color: #2F2E41;
-    border: none;
-    border-radius: 8px;
-    padding: .75rem 1.5rem;
-    cursor: pointer;
+  @media screen and (min-width: 768px){
+    width: 40%;
   }
+
+  @media screen and (min-width: 1000px){
+    width: 30%;
+  }
+
 `
