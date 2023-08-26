@@ -1,6 +1,6 @@
 # Portifólio 📚
 
-Apresento o meu primeiro portfólio, aqui você poderá encontrar informações de contato, meus principais projetos e informações sobre minha trajetória. Este projeto foi elaborado com base no design desenvolvido por mim no Figma.
+Bem-vindo ao meu primeiro portfólio! Aqui, você encontrará os meus meios de contato, projetos principais, conhecimentos em linguagens e tecnologias, e um pouco da minha trajetória até o momento. Este projeto foi meticulosamente elaborado com base no design que criei utilizando a plataforma Figma.
 
 
 ![Tela Desktop](./public/Portifolio%201.svg)
