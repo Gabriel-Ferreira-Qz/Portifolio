@@ -4,7 +4,7 @@ import { Botoes, Container, Descricao } from './style'
 
 export default function Home() {
     return (
-        <section>
+        <>
             <Container name="home">
                 <Descricao>
                     <h3>Olá, meu nome é </h3>
@@ -24,6 +24,6 @@ export default function Home() {
                 </Descricao>
 
             </Container>
-        </section>
+        </>
     )
 }

@@ -1,13 +1,12 @@
-import { FaBars } from 'react-icons/fa'
 import { useEffect, useState } from "react"
+import { FaBars } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 import { BtnContato, Cabecalho, Nav } from './style'
+
 import SideBar from "../SideBar"
 
-
 import Logo from '../../Assets/Logo-mobile.svg'
-
-import { Link } from 'react-scroll'
 
 export default function Header() {
 

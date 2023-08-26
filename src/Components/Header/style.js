@@ -99,4 +99,11 @@ export const BtnContato = styled.a`
     border-radius: 25px;
     font-size: 1rem;
     cursor: pointer;
+
+
+
+    &:hover {
+        background-color: #312d6b;
+        transition: 0.3s ease;
+    }
 `

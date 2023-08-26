@@ -49,7 +49,7 @@ export default function Projetos() {
     ]
 
     return (
-        <section>
+        <>
             <Container name="projetos">
                 <h2>Meus principais <span>projetos</span></h2>
 
@@ -74,6 +74,6 @@ export default function Projetos() {
                 <CircluloAzulSecundario></CircluloAzulSecundario>
 
             </Container>
-        </section>
+        </>
     )
 }

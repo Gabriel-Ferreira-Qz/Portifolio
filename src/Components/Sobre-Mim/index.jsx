@@ -1,14 +1,14 @@
-import { CircluloAzul, CircluloRoxo, Container, BtnCurrriculo } from './style'
 import { AiFillFilePdf } from 'react-icons/ai'
+import { CircluloAzul, CircluloRoxo, Container, BtnCurrriculo } from './style'
 
-import Retangulo from "../../Assets/Rectangle 5.svg"
+import FotoDoDensenvolvedor from "../../Assets/FotoDePerifl.svg"
 
 export default function SobreMim() {
 
     return (
-        <section>
+        <>
             <Container id="sobre-mim">
-                <img src={Retangulo} alt="Foto do desenvolvedor 'Gabriel Ferreira'" />
+                <img src={FotoDoDensenvolvedor} alt="Foto do desenvolvedor 'Gabriel Ferreira'" />
 
                 <section>
                     <h2>Sobre mim</h2>
@@ -17,7 +17,7 @@ export default function SobreMim() {
                         <p>Minha busca constante é pelo aprendizado na área de desenvolvimento, principalmente tecnologias JavaScript. Procuro oportunidades no mercado para crescer como desenvolvedor e, no futuro, almejo me tornar um desenvolvedor Full Stack.</p>
                     </div>
 
-                    <BtnCurrriculo href="https://drive.google.com/file/d/1ISVdil2FJg4sn3ZBGzd_dEQ0nKk1u1Fw/view?usp=sharing">
+                    <BtnCurrriculo href="https://drive.google.com/file/d/1WP7Y183e7hw6Jrnzq52XJRsvDqxh3FGP/view?usp=sharing">
                         Baixar Currículo
                         <AiFillFilePdf />
                     </BtnCurrriculo>
@@ -26,7 +26,7 @@ export default function SobreMim() {
                 <CircluloRoxo></CircluloRoxo>
                 <CircluloAzul></CircluloAzul>
             </Container>
-        </section>
+        </>
     )
 }
 

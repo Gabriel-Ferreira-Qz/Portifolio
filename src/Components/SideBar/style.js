@@ -40,13 +40,13 @@ export const BtnContato = styled.a`
   font-size: 1.125rem;
   font-weight: 500;
   color: #FBFAFA;
-  font-family: 'Poppins', sans-serif;
   background-color: #2F2E41;
-  border: none;
   border-radius: 8px;
   padding: .75rem 1.5rem;
   cursor: pointer;
   text-decoration: none;
+
+
 
   @media screen and (min-width: 768px){
     width: 40%;
@@ -55,5 +55,4 @@ export const BtnContato = styled.a`
   @media screen and (min-width: 1000px){
     width: 30%;
   }
-
 `

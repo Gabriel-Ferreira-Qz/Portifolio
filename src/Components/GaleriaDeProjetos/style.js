@@ -26,8 +26,8 @@ export const Descricao = styled.div`
     div {
         display: flex;
         gap: 16px;
+        justify-content: center;
         
-
         a{
             width: 35px;
             height: 35px;

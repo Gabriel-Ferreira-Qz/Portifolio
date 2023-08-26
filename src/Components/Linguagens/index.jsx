@@ -56,9 +56,9 @@ export default function Linguagens() {
     ]
 
     return (
-        <section>
+        <>
             <Container name="linguagens">
-                <h2>Linguagens</h2>
+                <h2>Conhecimentos</h2>
 
                 <Tecnologias>
                     {tecnologias.map((tecnologias, k) => (
@@ -73,6 +73,6 @@ export default function Linguagens() {
                 </Tecnologias>
 
             </Container>
-        </section>
+        </>
     )
 }

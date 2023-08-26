@@ -46,6 +46,6 @@ $ npm start
 
 ## Autor do Projeto 👨‍💻
 
-Este projeto foi desenvolvido por Gabriel Ferreira de Queiroz. Se deseja entrar em contato, [acesse o meu perfil no LinkedIn.](https://www.linkedin.com/in/gabriel-queiroz-7a1428212/)
+Este projeto foi desenvolvido por Gabriel Ferreira de Queiroz. Se deseja entrar em contato, [acesse o meu perfil no LinkedIn.](https://www.linkedin.com/in/gabriel-f-queiroz/)
 
 Agradeço por conferir este projeto e espero que tenha uma ótima experiência explorando o meu portiólio! 😄
