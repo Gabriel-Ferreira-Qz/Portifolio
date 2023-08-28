@@ -5,7 +5,7 @@ import GaleriaDeProjetos from "../GaleriaDeProjetos"
 import Meteora from "../../Assets/Meteora.svg"
 import Adopet from "../../Assets/Adopet.svg"
 import IndieBrew from "../../Assets/IndieBrew.svg"
-import Portifolio from "../../Assets/Portifilo.svg"
+import Portfolio from "../../Assets/Portifilo.svg"
 
 export default function Projetos() {
 
@@ -38,11 +38,11 @@ export default function Projetos() {
             link: "https://indie-brew-starter.vercel.app/"
         },
         {
-            titulo: "Portifólio",
+            titulo: "Portfólio",
             descricao: "Meu primeiro portfólio, aqui você poderá encontrar informações de contato, meus principais projetos e informções sobre minha trajetória.",
             tecnologias: "React, Styled-Components",
-            img: Portifolio,
-            alt: "Imagem do projeto 'Portifolio'",
+            img: Portfolio,
+            alt: "Imagem do projeto 'Portfolio'",
             repositorio: "https://github.com/Gabriel-Ferreira-Qz/Portifolio",
             link: "#"
         }
