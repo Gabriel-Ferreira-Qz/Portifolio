@@ -1,4 +1,4 @@
-# Portifólio 📚
+# Portfólio 📚
 
 Bem-vindo ao meu primeiro portfólio! Aqui, você encontrará os meus meios de contato, projetos principais, conhecimentos em linguagens e tecnologias, e um pouco da minha trajetória até o momento. Este projeto foi meticulosamente elaborado com base no design que criei utilizando a plataforma Figma.
 
