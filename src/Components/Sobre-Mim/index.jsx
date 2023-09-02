@@ -17,7 +17,7 @@ export default function SobreMim() {
                         <p>Minha busca constante é pelo aprendizado na área de desenvolvimento, principalmente tecnologias JavaScript. Procuro oportunidades no mercado para crescer como desenvolvedor e, no futuro, almejo me tornar um desenvolvedor Full Stack.</p>
                     </div>
 
-                    <BtnCurrriculo href="https://drive.google.com/file/d/1WP7Y183e7hw6Jrnzq52XJRsvDqxh3FGP/view?usp=sharing">
+                    <BtnCurrriculo href="https://drive.google.com/file/d/1SB00uajTU7Ni4sgRuspCJs50LTGKzANm/view?usp=drivesdk">
                         Baixar Currículo
                         <AiFillFilePdf />
                     </BtnCurrriculo>
